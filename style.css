@@ -46,3 +46,57 @@
 .banner-right img {
   display: block;
 }
+
+/* UPCOMING MATCHES STYLE HEAR */
+
+.upcoming-matches {
+  display: flex;
+  padding: 50px;
+  gap: 15px;
+}
+.upcoming-matches-left {
+  background-color: black;
+  width: 25%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.upcoming-matches-left .button:nth-child(1),
+.upcoming-matches-left .button:nth-child(2) {
+  background-color: white;
+  color: black;
+}
+
+.upcoming-matches-right .card {
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 10px;
+}
+.upcoming-matches .card .card-body {
+  padding: 10px;
+}
+
+.upcoming-matches-right .card .button {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 17px;
+  margin-top: 10px;
+}
+.upcoming-matches-right .card img {
+  height: 180px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.upcoming-matches-right .card h2 {
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+.card-bottom {
+  display: flex;
+  gap: 20px;
+  color: #161616cc;
+}
